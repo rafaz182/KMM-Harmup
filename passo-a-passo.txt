@@ -1,0 +1,23 @@
+101
+#Init do projeto
+1) gradle init na pasta do projeto
+
+2) escolhi basic (build structure only) e nome default
+
+3) uso KTS para buildscript e sim para new APIs
+
+
+#Dependencias
+Vamos focar nas dependencias
+1) Configuração do settings.gradle.kts padrão para realizar a configuração dos repositório de plugin e dependência
+commit: f287a59199a4e90953e453f29660b1f88a42955b
+
+2) Nosso foco primário é o KMP (Kotlin multiplatform), depois avançar para o KMM(Kotlin multiplatform mobile). Vamos instalar os seguintes plugins a fim de criar uma biblioteca compartilhada
+* org.jetbrains.kotlin.multiplatform (https://kotlinlang.org/docs/multiplatform-dsl-reference.html)
+
+A nossa primeira biblioteca será de networking. Um desafio simples mas de grande impacto nos projetos em geral.
+
+A plataformas (targets) escolhidas nesse primeiro momento será Android. Configurando uma estrutura multiplataforma para apenas uma, vamos avançar para configurar para as demais. Vamos distributir a networking como uma biblioteca, por isso o plugin necessário é o 
+* com.android.library 
+
+OBS: é necessário configurar o primeiro plugin, realizar o sync, depois o segundo

@@ -6,3 +6,8 @@
  * This project uses @Incubating APIs which are subject to change.
  */
 
+plugins {
+    //trick: for the same plugin versions in all sub-modules
+    alias(libs.plugins.kotlinMultiplatform) apply(false)
+    alias(libs.plugins.androidLibrary) apply(false)
+}

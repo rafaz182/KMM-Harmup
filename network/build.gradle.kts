@@ -8,8 +8,6 @@ plugins {
 }
 
 kotlin {
-    applyDefaultHierarchyTemplate()
-
     /**
      * Target is a part of the build responsible for compiling, testing, and packaging a piece of software aimed at one of the supported platforms.
     */
@@ -19,6 +17,23 @@ kotlin {
             kotlinOptions {
                 jvmTarget = "11"
             }
+        }
+    }
+    iosX64()
+    iosArm64()
+    iosSimulatorArm64()
+    applyDefaultHierarchyTemplate()
+
+    sourceSets {
+        commonMain.dependencies {
+            implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.content.negotiation)
+            implementation(libs.ktor.serialization.kotlinx.json)
+        }
+
+        androidMain.dependencies {
+            api(libs.androidx.appcompat)
+            api(libs.androidx.coreKtx)
         }
     }
 }

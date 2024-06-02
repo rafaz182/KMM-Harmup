@@ -21,3 +21,6 @@ A plataformas (targets) escolhidas nesse primeiro momento será Android. Configu
 * com.android.library 
 
 OBS: é necessário configurar o primeiro plugin, realizar o sync, depois o segundo
+commit: 6f90f5cf6e3d0374cbaba9afbf7ef28c5d5fe7e5
+
+3) Uma configuração manual está tornando extremamente complexo o reconhecimento das hierarquia do KMP. Eu criei um pasta manualmente chamda "network", adicionei o arquivo build.gradle.kts nela e configurei o básico do KMP neste arquivo. Olhando diversos samples adicionei a pasta "src" e dentro dela a "commonMain". Porém a IDE se recusa a detectar essa pasta como parte da estrutua... 

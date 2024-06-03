@@ -22,18 +22,26 @@ kotlin {
     iosX64()
     iosArm64()
     iosSimulatorArm64()
+
     applyDefaultHierarchyTemplate()
 
     sourceSets {
         commonMain.dependencies {
             implementation(libs.ktor.client.core)
-            implementation(libs.ktor.client.content.negotiation)
-            implementation(libs.ktor.serialization.kotlinx.json)
+            implementation(libs.koin.core)
+            //implementation(libs.ktor.client.content.negotiation)
+            //implementation(libs.ktor.serialization.kotlinx.json)
         }
 
         androidMain.dependencies {
+            implementation(libs.ktor.client.android)
+
             api(libs.androidx.appcompat)
             api(libs.androidx.coreKtx)
+        }
+
+        iosMain.dependencies {
+            implementation(libs.ktor.client.darwin)
         }
     }
 }

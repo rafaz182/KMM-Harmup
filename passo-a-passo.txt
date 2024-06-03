@@ -33,6 +33,10 @@ Adicionei uma pasta via Android Studio, fiz o sync e funcionou. Essa é a IDE ne
 
 commit: ac650b89fb48282698a48fa2abb790394a3ffc4c
 
-4) Bem, iniciarei meu estudo sobre o ktor-client para construir uma camada de network compartilhada.
-
 FUNFACT: Após realizar a adição dos targets iOS e realizar o sync pelo Android Studio, o Intellij Ultimate reconheceu minha estrutura de pastas.
+
+Adicionei uma pasta .kotlin no gitignore
+
+commit: 9bad928402f3b09f036eba9b0957f069482bc848
+
+4) Bem, iniciarei meu estudo sobre o ktor-client para construir uma camada de network compartilhada.

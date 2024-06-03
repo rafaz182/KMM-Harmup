@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0c0a56d-a788-4492-b586-d2fa8e894558" name="Changes" comment="adicionando .idea folder">
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/androidMain/kotlin/dev/rafaz/network/Target.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/commonMain/kotlin/dev.rafaz.network/Network.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/commonMain/kotlin/dev.rafaz.network/Target.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/iosMain/kotlin/dev.rafaz.network/Target.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/links_to_follow.txt" beforeDir="false" afterPath="$PROJECT_DIR$/links_to_follow.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/network/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/passo-a-passo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/passo-a-passo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +48,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,6 +71,23 @@
     &quot;accountId&quot;: &quot;ad6305df-301d-4ba4-8f78-867edc37d27b&quot;
   }
 }</component>
+  <component name="KotlinMultiplatform" KONAN_HOME="C:\Users\Rafael\.konan\kotlin-native-prebuilt-windows-x86_64-2.0.0">
+    <executable TARGET="ios_simulator_arm64" TARGET_NAME="iosSimulatorArm64" EXECUTABLE_NAME="test" PROJECT_PREFIX=":network:" IS_TEST="true">
+      <variant NAME="Debug" GRADLE_TASK=":network:linkDebugTestIosSimulatorArm64" FILE="$PROJECT_DIR$/network/build/bin/iosSimulatorArm64/debugTest/test.kexe" WORKING_DIR="" PROGRAM_PARAMS="">
+        <envs />
+      </variant>
+    </executable>
+    <executable TARGET="ios_arm64" TARGET_NAME="iosArm64" EXECUTABLE_NAME="test" PROJECT_PREFIX=":network:" IS_TEST="true">
+      <variant NAME="Debug" GRADLE_TASK=":network:linkDebugTestIosArm64" FILE="$PROJECT_DIR$/network/build/bin/iosArm64/debugTest/test.kexe" WORKING_DIR="" PROGRAM_PARAMS="">
+        <envs />
+      </variant>
+    </executable>
+    <executable TARGET="ios_x64" TARGET_NAME="iosX64" EXECUTABLE_NAME="test" PROJECT_PREFIX=":network:" IS_TEST="true">
+      <variant NAME="Debug" GRADLE_TASK=":network:linkDebugTestIosX64" FILE="$PROJECT_DIR$/network/build/bin/iosX64/debugTest/test.kexe" WORKING_DIR="" PROGRAM_PARAMS="">
+        <envs />
+      </variant>
+    </executable>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -68,7 +100,12 @@
   "keyToString": {
     "Gradle.Build manual-install.executor": "Run",
     "Gradle.Load Gradle Dependencies.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -121,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717349586084</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adicionando .idea folder">
+      <option name="closed" value="true" />
+      <created>1717350285338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717350285338</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,8 +175,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="adicionando .idea folder" />
     <MESSAGE value="adicionando target ios para testar sync da hierarquia e source sets common, android para iniciar o desenvolvimento kmp" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando target ios para testar sync da hierarquia e source sets common, android para iniciar o desenvolvimento kmp" />
+    <MESSAGE value="adicionando .idea folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando .idea folder" />
   </component>
 </project>

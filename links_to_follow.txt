@@ -1,3 +1,23 @@
+#ENTRY POINT, ALL SHOULD READ THIS
+https://kotlinlang.org/docs/multiplatform-dsl-reference.html
+
+
 https://proandroiddev.com/jetpack-compose-multiplatform-android-ios-4a87ba417caa
 
 
+https://danielebaroncelli.medium.com/d-kmp-sample-now-leverages-ios-16-navigation-cebbb81ba2e7
+
+
+#para codar sem IDE
+https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-setup.html
+
+
+#bunch of links that may help study
+https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-create-first-app.html
+https://kotlinlang.org/docs/multiplatform-advanced-project-structure.html //dependsOn may be outdated, check more
+https://kotlinlang.org/docs/multiplatform-configure-compilations.html#configure-all-compilations
+https://kotlinlang.org/docs/gradle-compiler-options.html
+
+
+#ktor
+https://ktor.io/docs/client-engines.html

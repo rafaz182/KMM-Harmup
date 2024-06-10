@@ -40,3 +40,20 @@ Adicionei uma pasta .kotlin no gitignore
 commit: 9bad928402f3b09f036eba9b0957f069482bc848
 
 4) Bem, iniciarei meu estudo sobre o ktor-client para construir uma camada de network compartilhada.
+Utilizando o KTor como client, percebi que para realizar as requisições HTTP, utiliza=se de uma "engine". A Engine é a responsável por realizar efetivamente as chamadas REST. Cada plataforma utiliza-se de um Engine
+Android: ktor-client-android OU ktor-client-okhttp
+iOS: ktor-client-darwin
+
+Com isso, escrevi meu primeiro método expect-actual utilizando o koin para DI.
+
+Defini um método chamado "targetModule", onde este será responsável por injetar as dependências de cada target. Ele é um método expect pois a implementação deve ser feita em cada target. (Já me surgindo dúvidas de como configurar elementos com dependência, ex: interceptors)
+
+Nos samples da própria JetBrains eles usam o koin para DI, vou seguir nesta mesma linha.
+
+commit: 7f4d53ff9d29aa94faf6aece0027ebe851949725
+
+5) Ao declarar um método expect no commonMain, ele me dá a opção de auto-criar os actual nos targets definidos... Porém notei que para o Android ele cria um pacote único ao invés de uma estrutura dev... rafaz... network...
+
+Acredito que isso ocorreu pois não tem criação de pacote no commonMain, ele criou uma pasta única de nome dev.rafaz.network
+
+Não sei se isso será um novo padrão mas é questionável

@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0c0a56d-a788-4492-b586-d2fa8e894558" name="Changes" comment="adicionando .idea folder">
-      <change afterPath="$PROJECT_DIR$/network/src/androidMain/kotlin/dev/rafaz/network/Target.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/androidMain/kotlin/dev.rafaz.network/Platform.android.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/network/src/commonMain/kotlin/dev.rafaz.network/Network.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/commonMain/kotlin/dev.rafaz.network/Target.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/iosMain/kotlin/dev.rafaz.network/Target.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/commonMain/kotlin/dev.rafaz.network/NetworkDI.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/commonMain/kotlin/dev.rafaz.network/Platform.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/iosMain/kotlin/dev.rafaz.network/Platform.ios.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/links_to_follow.txt" beforeDir="false" afterPath="$PROJECT_DIR$/links_to_follow.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/network/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/androidMain/kotlin/dev/rafaz/network/Target.kt" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/androidMain/kotlin/dev/rafaz/network/Platform.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/commonMain/kotlin/dev.rafaz.network/Target.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/iosMain/kotlin/dev.rafaz.network/Target.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/passo-a-passo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/passo-a-passo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,17 +167,37 @@
       <option name="project" value="LOCAL" />
       <updated>1717350285338</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Criando expect-actual para módulo do koin">
+      <option name="closed" value="true" />
+      <created>1717456429497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717456429497</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="adicionando target ios para testar sync da hierarquia e source sets common, android para iniciar o desenvolvimento kmp" />
     <MESSAGE value="adicionando .idea folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando .idea folder" />
+    <MESSAGE value="Criando expect-actual para módulo do koin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando expect-actual para módulo do koin" />
   </component>
 </project>
